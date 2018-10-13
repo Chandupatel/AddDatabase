@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/FImg"
+                android:layout_width="100dp"
+                android:layout_height="130dp"
+                android:background="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/FName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:text="Chandrkannt"
+                android:textSize="20dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/FEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="110dp"
+                android:text="Chandrkannt@gmail.com"
+                android:textSize="20dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/FMobil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="110dp"
+                android:text="8290089915"
+                android:textSize="20dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/FAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                android:layout_marginLeft="110dp"
+                android:text="jagatpura JAipur"
+                android:textSize="20dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/FPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="110dp"
+                android:text="123456"
+                android:textSize="20dp"
+                android:textColor="#000000"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
